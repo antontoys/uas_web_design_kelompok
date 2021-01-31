@@ -1,0 +1,122 @@
+/*
+	Awesome Responsive Template
+	templatestock.co
+*/
+
+
+/* Typography CSS */
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+img {
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body
+{
+	font-family: 'Roboto' !important;
+	overflow-x: hidden;
+}
+
+
+
+
+
+
+/* Header CSS */
+
+.header-div
+{
+	height: 1000px;
+    background-color: #65cd00;
+    margin: -100 -100;
+    padding :-100 -100;
+}
+
+body{
+    background-color: #65cd00;
+}
+.slide-text
+{
+	color: #fff;
+	margin-top: 80px;
+}
+
+.slide-text h1
+{
+    line-height: 60px;
+    font-size: 60px;
+    margin-bottom: 18px;
+}
+
+.slide-text p
+{
+	font-size: 17px;
+    margin: 100px;
+}
+
+/* Bootstrap CSS */
+
+
+
+.menuhalaman{
+  margin : 0 200px;
+    background-color: #3141ff;
+    width: 70px;
+  }
+
+  .menuhalaman ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .menuhalaman > ul > li {
+    float: left;
+  }
+
+  
+  .menuhalaman li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .menuhalaman li a:hover{
+    background-color: #2525ff;
+  }
+
+  li.dropdown {
+    display: inline-block;
+  }
+
+  .dropdown:hover .isi-dropdown {
+    display: block;
+  }
+
+  .isi-dropdown a:hover {
+    color: #fff !important;
+  }
+
+  .isi-dropdown {
+    position: absolute;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.8);
+    z-index: 1;
+    background-color: #f9f9f9;
+  }
+
+  .isi-dropdown a {
+    color: #3c3c3c !important;
+  }
+
+  .isi-dropdown a:hover {
+    color: #232323 !important;
+    background: #f3f3f3 !important;
+  }
